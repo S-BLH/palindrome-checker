@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(90deg, white, black, red);
+  color: white;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 30px;
+  font-size: 18px;
+  padding: 5px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+#result {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Responsive Layout */
+@media only screen and (min-width: 768px) {
+  /* Tablet and Desktop Layout */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  input[type="text"] {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Mobile Layout */
+  body {
+    padding: 10px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+  }
+}
