@@ -7,6 +7,7 @@
 
 ## Demo 📸
 ![Demo]:C:\Users\Black Store\Desktop\Screenshot 2024-06-30 141733.png
+https://s-blh.github.io/palindrome-checker/
 
 ## Technologies Used 🛠️
 - HTML
